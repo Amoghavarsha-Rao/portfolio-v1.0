@@ -1,7 +1,7 @@
 <h1>React+Vite Portfolio Website</h1>
 
 <p>
-  This project is an <strong>iterative build</strong> based on my previous portfolio design, which can be found in the repository <a href="https://github.com/username/my-reactfolio"><strong>My Reactfolio</strong></a>. For this version, I've focused on building most of the components from scratch, leveraging <strong>React</strong> and <strong>Tailwind CSS</strong> to improve the design, maintainability, and overall performance of the site.
+  This project is an <strong>iterative build</strong> based on my previous portfolio design, which can be found in the repository <a href="https://github.com/Amoghavarsha-Rao/my-reactfolio"><strong>My Reactfolio</strong></a>. For this version, I've focused on building most of the components from scratch, leveraging <strong>React</strong> and <strong>Tailwind CSS</strong> to improve the design, maintainability, and overall performance of the site.
 </p>
 
 <h2>Key Improvements</h2>
