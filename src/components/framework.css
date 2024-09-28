@@ -1,0 +1,38 @@
+.framework-wrapper {
+    position: relative;
+    display: inline-block;
+    padding: 1rem;
+    border: 2px solid #3B3B3B;
+    border-radius: 1rem;
+    transition: border-color 0s, transform 0.3s ease-in-out;
+  }
+  
+  .framework-wrapper:hover {
+    border-color: transparent;
+    transform: translateY(-0.25rem);
+  }
+  
+  .icon {
+    position: relative;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  .framework-wrapper:hover .icon {
+    opacity: 1;
+  }
+  
+  .framework-wrapper::after {
+    content: "";
+    position: absolute;
+    bottom: -0.25rem;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #3B3B3B;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .framework-wrapper:hover::after {
+    width: 100%;
+  }
+  
