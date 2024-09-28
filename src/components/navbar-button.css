@@ -1,0 +1,27 @@
+.icon-hover {
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .icon-hover:hover {
+    transform: translateY(-0.25rem);
+    opacity: 0.7;
+  }
+  
+  /* Underline effect */
+  .icon-hover::before {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #3B3B3B;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .icon-hover:hover::before {
+    width: 100%; 
+  }
+  
