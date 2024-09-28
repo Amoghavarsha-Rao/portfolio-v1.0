@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Techstack from "./components/Techstack"; 
+import Frameworks from "./components/Frameworks"; 
 
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <Techstack/>
+      <Frameworks/>
     </div>
   );
 };
