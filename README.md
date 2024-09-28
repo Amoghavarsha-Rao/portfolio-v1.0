@@ -1,3 +1,5 @@
+<title> still under progress, the following outlines the end goal of the project</title>
+
 <h1>React+Vite Portfolio Website</h1>
 
 <p>
