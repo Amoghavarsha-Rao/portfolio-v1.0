@@ -3,8 +3,8 @@ import "./button.css";
 
 const Hero = () => {
   return (
-    <div className="mx-48 mt-16 flex items-center justify-between py-6">
-      <div>
+    <div className="mx-64  mt-24 flex flex-col-reverse md:flex-row items-center justify-between py-6">
+      <div className="flex flex-col items-center md:items-start md:text-left text-center">
         <p
           style={{
             fontFamily: "var(--font-arimo)",
@@ -51,8 +51,8 @@ const Hero = () => {
                 color: "#3B3B3B",
                 fontWeight: 500,
                 display: "flex",
-                alignItems: "center", // Makes the text and icon inline
-                gap: "0.5rem", // Adds space between text and icon
+                alignItems: "center",
+                gap: "0.5rem",
               }}
             >
               <div className="icon_cont">
@@ -62,38 +62,16 @@ const Hero = () => {
             </a>
           </button>
         </div>
-
-        {/* <div className="pt-10">
-          <p
-            style={{
-              fontFamily: "var(--font-arimo)",
-              fontSize: 16,
-              color: "#3B3B3B",
-            }}
-          >
-            <a
-              href="https://www.dropbox.com/scl/fi/8nyhos4br0aac9o6mjdhn/Amogh-Resume.pdf?rlkey=pkt0vrgxy4ele7k9jz6iuo6ui&st=ost0az0h&dl=0"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                fontFamily: "var(--font-arimo)",
-                fontWeight: 650,
-                textDecoration: "underline",
-                color: "#3B3B3B",
-              }}
-            >
-              Download CV
-            </a>
-          </p>
-        </div> */}
       </div>
 
-      <div className="items-center justify-between">
+      <div className="mb-8 ml-48 xl:mb-0 ml-32 lg:flex-col">
         <img
-          className="ml -4 pl-8"
           src="src/assets/homepage_image_1.png"
           alt="homepage-headshot"
-          style={{ maxWidth: "432px", height: "auto" }}
+          style={{
+            width: "450px", // Set fixed width
+            height: "auto",  // Maintain aspect ratio
+          }}
         />
       </div>
     </div>

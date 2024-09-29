@@ -64,15 +64,7 @@ const Frameworks = () => {
             />
           </a>
         </div>
-        <div className="framework-wrapper">
-          <a
-            href="https://www.javascript.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaJs className="text-5xl icon" style={{ color: "#3B3B3B" }} />
-          </a>
-        </div>
+
         <div className="framework-wrapper">
           <a
             href="https://powerbi.microsoft.com/"
@@ -92,6 +84,15 @@ const Frameworks = () => {
               className="text-5xl icon"
               style={{ color: "#3B3B3B" }}
             />
+          </a>
+        </div>
+        <div className="framework-wrapper">
+          <a
+            href="https://www.javascript.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaJs className="text-5xl icon" style={{ color: "#3B3B3B" }} />
           </a>
         </div>
       </div>

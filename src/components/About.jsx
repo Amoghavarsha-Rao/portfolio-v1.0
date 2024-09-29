@@ -2,17 +2,21 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mx-48 mt-32 flex items-start justify-between py-6">
-      <div className="items-center justify-between">
+    <div className="mx-8 md:mx-48 mt-16 flex flex-col md:flex-row items-center justify-between py-6">
+      <div className="mb-8 md:mb-0">
         <img
-          className="ml -4 pl-8"
           src="src/assets/about.png"
           alt="about-image"
-          style={{ maxWidth: "432px", height: "auto" }}
+          style={{
+            width: "432px", // Set fixed width
+            height: "auto",  // Maintain aspect ratio
+          }}
         />
       </div>
-      <div className="pt-8">
-        <p className="pb-2"
+
+      <div className="flex flex-col items-center md:items-start text-center md:text-left">
+        <p
+          className="pb-2"
           style={{
             fontFamily: "var(--font-arimo)",
             fontWeight: 500,
@@ -36,13 +40,13 @@ const About = () => {
               fontSize: 20,
               color: "#3B3B3B",
               lineHeight: "1.5",
-              marginBottom: "16px", // Add spacing between paragraphs
+              marginBottom: "16px",
             }}
           >
             I am a student currently pursuing my Master’s degree in Business
             Analytics at UT Dallas. My experience includes optimizing data
             pipelines for faster processing and developing machine learning
-            algorithms to tackle real world problems.
+            algorithms to tackle real-world problems.
           </p>
 
           <p

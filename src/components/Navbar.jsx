@@ -6,7 +6,7 @@ import "./navbar-button.css";
 
 const Navbar = () => {
   return (
-    <nav className=" mb-4 mx-48 mt-4 flex items-center justify-between py-6">
+    <nav className=" mb-4 mx-64 mt-8 flex items-center justify-between py-6 md: mb-4 mt-8 justify-between">
       <div className="w-16 flex flex-shrink-0 items-center ">
         <img src={logosvg} alt="logo" style={{ color: "#3B3B3B" }} />
       </div>

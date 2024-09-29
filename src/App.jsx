@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Frameworks from "./components/Frameworks";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import ScrollToTop from "./components/Scroll-to-top";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <About />
       <Frameworks />
       <Experience />
+      <Projects />
+      <ScrollToTop/>
     </div>
   );
 };

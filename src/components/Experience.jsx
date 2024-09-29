@@ -30,7 +30,9 @@ const EXPERIENCES = [
 
 const Experience = () => {
   return (
-    <div className="pb-4 container mx-auto">
+    <div className="pb-4 container mx-auto px-4">
+      {" "}
+      {/* Added padding */}
       <h2
         className="mt-20 mb-12 text-center text-4xl"
         style={{
@@ -42,59 +44,66 @@ const Experience = () => {
       >
         Experience
       </h2>
-
       <div className="max-w-4xl mx-auto">
         {EXPERIENCES.map((experience, index) => (
-          <div key={index} className="mb-8 flex items-start">
-            <div className="w-1/3 pr-4 text-right">
+          <div
+            key={index}
+            className="mb-8 flex flex-col md:flex-row items-start"
+          >
+            <div className="text-left md:text-right w-full md:w-1/3 md:pr-4 mb-4 md:mb-0">
+
+            
               <p
-                className="text-sm text-neutral-400 sticky top-0"
+                
                 style={{
                   fontFamily: "var(--font-arimo)",
                   fontWeight: 500,
-                  fontSize: 16,
+                  fontSize: 20,
                 }}
               >
                 {experience.year}
               </p>
             </div>
 
-            <div className="w-2/3 pl-4">
+            <div className="w-full md:w-2/3 md:pl-4">
               <h3
                 className="mb-2 font-semibold"
                 style={{
                   fontFamily: "var(--font-arimo)",
-                  fontWeight: 500,
-                  fontSize: 16,
+                  fontWeight: 600,
+                  fontSize: 20,
                 }}
               >
-                {experience.role} -{" "}
-                <span
-                  className="text-sm text-purple-600"
-                  style={{ fontFamily: "var(--font-arimo)", fontSize: 16 }}
-                >
+                {experience.role},{" "}
+                <span style={{ fontFamily: "var(--font-arimo)", fontSize: 20, fontWeight: 400 }}>
                   {experience.company}
                 </span>
               </h3>
               <ul className="list-disc pl-5">
                 <li
-                  className="mb-4 text-neutral-600"
-                  style={{ fontFamily: "var(--font-arimo)", fontSize: 16 }}
+                  className="mb-4"
+                  style={{
+                    fontFamily: "var(--font-arimo)",
+                    fontSize: 18,
+                  }}  
                 >
                   {experience.description1}
                 </li>
                 <li
-                  className="mb-4 text-neutral-600"
-                  style={{ fontFamily: "var(--font-arimo)", fontSize: 16 }}
+                  className="mb-4"
+                  style={{
+                    fontFamily: "var(--font-arimo)",
+                    fontSize: 18,
+                  }}
                 >
                   {experience.description2}
                 </li>
               </ul>
               <div>
-                {experience.frameworks.map((tech, index) => (
+                {experience.frameworks.map((tech, techIndex) => (
                   <span
-                    key={index}
-                    className="experience-wrapper mr-2 mb-2 inline-block rounded px-2 py-1 text-sm text-gray-800"
+                    key={techIndex}
+                    className="experience-wrapper mr-2 mb-2 inline-block rounded px-2 py-1"
                     style={{ fontFamily: "var(--font-arimo)" }}
                   >
                     {tech}
