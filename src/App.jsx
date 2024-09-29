@@ -6,6 +6,7 @@ import Frameworks from "./components/Frameworks";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import ScrollToTop from "./components/Scroll-to-top";
+import Contact from "./components/Contact.jsx";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Frameworks />
       <Experience />
       <Projects />
+      <Contact />
       <ScrollToTop/>
     </div>
   );

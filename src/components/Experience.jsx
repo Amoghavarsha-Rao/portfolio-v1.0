@@ -51,10 +51,7 @@ const Experience = () => {
             className="mb-8 flex flex-col md:flex-row items-start"
           >
             <div className="text-left md:text-right w-full md:w-1/3 md:pr-4 mb-4 md:mb-0">
-
-            
               <p
-                
                 style={{
                   fontFamily: "var(--font-arimo)",
                   fontWeight: 500,
@@ -75,7 +72,13 @@ const Experience = () => {
                 }}
               >
                 {experience.role},{" "}
-                <span style={{ fontFamily: "var(--font-arimo)", fontSize: 20, fontWeight: 400 }}>
+                <span
+                  style={{
+                    fontFamily: "var(--font-arimo)",
+                    fontSize: 20,
+                    fontWeight: 400,
+                  }}
+                >
                   {experience.company}
                 </span>
               </h3>
@@ -85,7 +88,7 @@ const Experience = () => {
                   style={{
                     fontFamily: "var(--font-arimo)",
                     fontSize: 18,
-                  }}  
+                  }}
                 >
                   {experience.description1}
                 </li>
