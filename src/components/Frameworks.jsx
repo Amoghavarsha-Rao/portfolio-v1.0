@@ -19,7 +19,7 @@ const Frameworks = () => {
           color: "#3B3B3B",
         }}
       >
-        Frameworks and Libraries
+        Frameworks and Technologies
       </p>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div className="framework-wrapper">
