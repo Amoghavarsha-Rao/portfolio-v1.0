@@ -13,15 +13,15 @@ const PROJECTS = [
     image: import.meta.env.VITE_PUBLIC_URL+"/Project-2.jpg",
     title: "Driver Truck Analysis",
     description: "Conducted in-depth analyses on variables like velocity and location, identifying key correlations with the risk factor, contributing valuable insights for strategic decision making in the transportation sector.",
-    tech: ["PySpark", "R", "PowerBI"],
-    link: "https://example.com/project2",
+    tech: ["PySpark", "Hadoop", "R", "PowerBI"],
+    link: "https://github.com/Amoghavarsha-Rao/Driver-Risk-Analysis",
   },
   {
     image: import.meta.env.VITE_PUBLIC_URL+"/Project-3.jpg",
     title: "Web Portfolio",
-    description: "An iterative portfolio designed and built from scratch by me. This dynamic web portfolio showcases my software and web development experience. The site features responsive design, interactive elements, and smooth navigation for an engaging user experience. Highlighting my projects, skills, and professional journey, it represents my capabilities comprehensively.",
+    description: "An iterative portfolio that I designed and built from scratch. This web portfolio showcases my software and web development experience. The site features responsive design, interactive elements, and smooth navigation for an engaging user experience. Highlighting my projects, skills, and professional journey, it represents my capabilities comprehensively.",
     tech: ["ReactJS", "TailwindCSS"],
-    link: "https://example.com/project3",
+    link: "https://github.com/Amoghavarsha-Rao/Portfolio-v1.0",
   },
 ];
 
@@ -56,6 +56,7 @@ const Projects = () => {
                 style={{
                   maxWidth: "100%",
                   height: "auto",
+                  borderRadius: "10px",
                 }}
               />
             </div>
