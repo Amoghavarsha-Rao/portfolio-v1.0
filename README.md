@@ -41,7 +41,7 @@
 
 <h2>Suggestions and Feedback</h2>
 <p>
-  This project is still under active development, and I'm open to any suggestions for improvement. Feel free to submit issues or pull requests for any enhancements or bug fixes.
+  I'm open to any suggestions for improvement, feel free to submit issues or pull requests for any enhancements or bug fixes.
 </p>
 
 <h2>Possible Suggestions for Future Improvements</h2>
