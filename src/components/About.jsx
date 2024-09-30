@@ -8,8 +8,8 @@ const About = () => {
           src={import.meta.env.VITE_PUBLIC_URL+"/about.png"}
           alt="about-image"
           style={{
-            width: "432px", // Set fixed width
-            height: "auto",  // Maintain aspect ratio
+            width: "432px",
+            height: "auto",
           }}
         />
       </div>

@@ -69,8 +69,8 @@ const Hero = () => {
           src={import.meta.env.VITE_PUBLIC_URL+"/homepage_image_1.png"}
           alt="homepage-headshot"
           style={{
-            width: "450px", // Set fixed width
-            height: "auto", // Maintain aspect ratio
+            width: "450px",
+            height: "auto",
           }}
         />
       </div>
