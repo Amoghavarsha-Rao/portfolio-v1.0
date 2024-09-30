@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mx-8 md:mx-48 mt-16 flex flex-col md:flex-row items-center justify-between py-6">
+    <div className="md:gap-8 mx-48 mt-16 flex flex-col 2xl:justify-around md:flex-row items-center justify-between py-6">
       <div className="mb-8 md:mb-0">
         <img
           src="src/assets/about.png"
@@ -14,7 +14,7 @@ const About = () => {
         />
       </div>
 
-      <div className="flex flex-col items-center md:items-start text-center md:text-left">
+      <div className="flex flex-col text-xl items-center md:items-start text-center md:text-left">
         <p
           className="pb-2"
           style={{
@@ -37,7 +37,7 @@ const About = () => {
             style={{
               fontFamily: "var(--font-serif)",
               fontWeight: 400,
-              fontSize: 20,
+              // fontSize: 20,
               color: "#3B3B3B",
               lineHeight: "1.5",
               marginBottom: "16px",
@@ -53,7 +53,7 @@ const About = () => {
             style={{
               fontFamily: "var(--font-serif)",
               fontWeight: 400,
-              fontSize: 20,
+              // fontSize: 20,
               color: "#3B3B3B",
               lineHeight: "1.5",
             }}

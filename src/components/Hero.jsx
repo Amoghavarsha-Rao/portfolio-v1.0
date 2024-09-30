@@ -3,7 +3,7 @@ import "./button.css";
 
 const Hero = () => {
   return (
-    <div className="mx-64  mt-24 flex flex-col-reverse md:flex-row items-center justify-between py-6">
+    <div className="mx-64  mt-24 flex flex-col-reverse 2xl:justify-around md:flex-row md:gap-8 items-center justify-between py-6">
       <div className="flex flex-col items-center md:items-start md:text-left text-center">
         <p
           style={{
@@ -64,13 +64,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="mb-8 ml-48 xl:mb-0 ml-32 lg:flex-col">
+      <div className="mb-8 xl:mb-0 ml- lg:flex-col">
         <img
           src="src/assets/homepage_image_1.png"
           alt="homepage-headshot"
           style={{
             width: "450px", // Set fixed width
-            height: "auto",  // Maintain aspect ratio
+            height: "auto", // Maintain aspect ratio
           }}
         />
       </div>

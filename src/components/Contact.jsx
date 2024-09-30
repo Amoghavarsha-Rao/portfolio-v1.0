@@ -5,7 +5,7 @@ import "./navbar-button.css";
 
 const Contact = () => {
   return (
-    <div className="justify-center text-center mt-8">
+    <div className="justify-center text-center mt-8 mx-16">
       
       <p
         style={{

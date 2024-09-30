@@ -87,7 +87,7 @@ const Projects = () => {
                 {project.tech.map((tech, techIndex) => (
                   <span
                     key={techIndex}
-                    className="experience-wrapper mr-2 mb-2 inline-block rounded px-2 py-1 text-sm"
+                    className="experience-wrapper mr-2 mb-2 inline-block rounded px-2 py-1"
                     style={{
                       fontFamily: "var(--font-arimo)",
                       fontWeight: 400,
