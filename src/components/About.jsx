@@ -5,7 +5,7 @@ const About = () => {
     <div className="md:gap-8 mx-12 mt-16 flex flex-col 2xl:justify-around md:flex-row items-center justify-between py-6 2xl:mx-64 lg:mx-48 sm:mx-24">
       <div className="mb-8 md:mb-0">
         <img
-          src="src/assets/about.png"
+          src={import.meta.env.VITE_PUBLIC_URL+"/about.png"}
           alt="about-image"
           style={{
             width: "432px", // Set fixed width

@@ -3,21 +3,21 @@ import "./experience.css";
 
 const PROJECTS = [
   {
-    image: "src/assets/projects/Project-1.jpg",
+    image: import.meta.env.VITE_PUBLIC_URL+"/Project-1.jpg",
     title: "Machine Learning Project Collection",
     description: "A collection of ML projects showcasing data preprocessing, feature engineering, model development, and performance evaluation across classification, regression, and clustering domains. The focus is on real-world applications, data-driven insights, and model optimization using frameworks like SK Learn and PyTorch.",
     tech: ["Python", "PyTorch", "SKLearn"],
     link: "https://github.com/Amoghavarsha-Rao/ML-Project-Collection",
   },
   {
-    image: "src/assets/projects/Project-2.jpg",
+    image: import.meta.env.VITE_PUBLIC_URL+"/Project-2.jpg",
     title: "Driver Truck Analysis",
     description: "Conducted in-depth analyses on variables like velocity and location, identifying key correlations with the risk factor, contributing valuable insights for strategic decision making in the transportation sector.",
     tech: ["PySpark", "R", "PowerBI"],
     link: "https://example.com/project2",
   },
   {
-    image: "src/assets/projects/Project-3.jpg",
+    image: import.meta.env.VITE_PUBLIC_URL+"/Project-3.jpg",
     title: "Web Portfolio",
     description: "An iterative portfolio designed and built from scratch by me. This dynamic web portfolio showcases my software and web development experience. The site features responsive design, interactive elements, and smooth navigation for an engaging user experience. Highlighting my projects, skills, and professional journey, it represents my capabilities comprehensively.",
     tech: ["ReactJS", "TailwindCSS"],

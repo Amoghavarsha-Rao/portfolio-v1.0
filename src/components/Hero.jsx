@@ -66,7 +66,7 @@ const Hero = () => {
 
       <div className="mb-8 xl:mb-0 ml- lg:flex-col">
         <img
-          src="src/assets/homepage_image_1.png"
+          src={import.meta.env.VITE_PUBLIC_URL+"/homepage_image_1.png"}
           alt="homepage-headshot"
           style={{
             width: "450px", // Set fixed width

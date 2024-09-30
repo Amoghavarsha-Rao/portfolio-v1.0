@@ -1,4 +1,4 @@
-import logosvg from "../assets/svg_logo_nobg.svg";
+
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className=" mb-4 mx-12 mt-8 flex items-center justify-between py-6 2xl:mx-64 lg:mx-48 sm:mx-24 ">
       <div className="w-16 flex flex-shrink-0 items-center ">
-        <img src={logosvg} alt="logo" style={{ color: "#3B3B3B" }} />
+        <img src={import.meta.env.VITE_PUBLIC_URL+"/svg_logo_nobg.svg"} alt="logo" style={{ color: "#3B3B3B" }} />
       </div>
       <div className="flex items-center justify-center gap-4 text-2xl">
         <a
