@@ -58,7 +58,7 @@ const Hero = () => {
               <div className="icon_cont">
                 <span className="icon"></span>
               </div>
-              <span className="text_button">Download CV</span>
+              <span className="text_button">Download Résumé</span>
             </a>
           </button>
         </div>
