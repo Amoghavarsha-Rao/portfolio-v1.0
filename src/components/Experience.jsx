@@ -19,7 +19,7 @@ const EXPERIENCES = [
     description1:
       "Leveraged PySpark to integrate client API for data import, significantly reducing file drop incidents compared to SFTP. Implemented comprehensive data processing, including indexing, to ensure data integrity and optimal query performance in SQL Server Management Services.",
     description2:
-      "Participated in migrating SSIS Packages to Azure Synapse as part of an agency-wide modernization initiative to achieve 100% functionality and reduce file drops and ensure smooth pipeline operations with a very low failure rate.",
+      "Participated in migrating SSIS Packages to Azure Synapse as part of an agency-wide modernization initiative to reduce file drops and ensure smooth pipeline operations with a very low failure rate.",
     frameworks: [
       "Microsoft Azure Cloud",
       "PySpark",

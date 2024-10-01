@@ -60,7 +60,7 @@ const About = () => {
           >
             My core competencies lie in Python, PySpark, SQL, and cloud tools
             like Azure Synapse and Power BI, and I hold certifications in
-            Applied Machine Learning and Google Data Analytics.
+            Applied Machine Learning from UT Dallas and a Data Analytics certifications from .
           </p>
         </div>
       </div>
