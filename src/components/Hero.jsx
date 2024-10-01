@@ -3,7 +3,7 @@ import "./button.css";
 
 const Hero = () => {
   return (
-    <div className=" mx-12 mt-18 flex flex-col-reverse 2xl:mx-64 lg:mx-48 sm:mx-24 2xl:justify-around md:flex-row md:gap-8 items-center justify-between py-6">
+    <div className=" mx-12 mt-20 flex flex-col-reverse 2xl:mx-64 lg:mx-48 sm:mx-24 2xl:justify-around md:flex-row md:gap-8 items-center justify-between py-6">
       <div className="flex flex-col items-center md:items-start md:text-left text-center">
         <p
           style={{
