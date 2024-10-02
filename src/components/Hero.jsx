@@ -44,7 +44,7 @@ const Hero = () => {
             }}
           >
             <a
-              href="https://www.dropbox.com/scl/fi/8nyhos4br0aac9o6mjdhn/Amogh-Resume.pdf?rlkey=pkt0vrgxy4ele7k9jz6iuo6ui&st=ost0az0h&dl=0"
+              href="https://www.dropbox.com/scl/fi/iaxokefr47080v433xjzg/Amogh-Resume-2nd-Oct.pdf?rlkey=2rbrxhwzwxsug19edipcxp7ui&st=str9n4dz&dl=0"
               target="_blank"
               rel="noopener noreferrer"
               style={{
