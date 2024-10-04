@@ -19,7 +19,7 @@ const PROJECTS = [
   {
     image: import.meta.env.VITE_PUBLIC_URL+"/Project-3.jpg",
     title: "Web Portfolio",
-    description: "An iterative portfolio that I designed and built from scratch. This web portfolio showcases my software and web development experience. The site features responsive design, interactive elements, and smooth navigation for an engaging user experience. Highlighting my projects, skills, and professional journey, it represents my capabilities comprehensively.",
+    description: "A web portfolio that I designed and built from scratch. The site features responsive design, interactive elements, and smooth navigation for an engaging user experience. Highlighting my projects, skills, and professional journey, it represents my capabilities comprehensively.",
     tech: ["ReactJS", "TailwindCSS"],
     link: "https://github.com/Amoghavarsha-Rao/Portfolio-v1.0",
   },
