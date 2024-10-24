@@ -15,7 +15,7 @@ const Contact = () => {
           color: "#3B3B3B",
         }}
       >
-        Thank you for exploring my work! I’d love to hear your thoughts—feel free to reach out with any questions or feedback.
+        Thank you for exploring my work! feel free to reach out with any questions or feedback!
       </p>
 
       
