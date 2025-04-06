@@ -3,7 +3,7 @@ import "./experience.css";
 
 const EXPERIENCES = [
   {
-    year: "August 2024 - Present",
+    year: "August 2024 - December 2024",
     role: "Software Development and Data Engineering intern",
     company: "KTech Products LLC",
     description1:
