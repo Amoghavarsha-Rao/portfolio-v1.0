@@ -43,8 +43,10 @@ const About = () => {
               marginBottom: "16px",
             }}
           >
-            I am a student currently pursuing my Master’s degree in Business
-            Analytics at UT Dallas. My experience includes optimizing data
+            I am a Data Engineer currently, working at the Teacher Retirement System of Texas.
+            {/* student currently pursuing my Master’s degree in Business
+            Analytics at UT Dallas.  */}
+            My experience includes optimizing data
             pipelines for faster processing and developing machine learning
             algorithms to tackle real-world problems.
           </p>
