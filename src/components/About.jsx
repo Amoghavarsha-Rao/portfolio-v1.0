@@ -43,10 +43,10 @@ const About = () => {
               marginBottom: "16px",
             }}
           >
-            I am a Data Engineer currently, working at the Teacher Retirement System of Texas.
+            I am a Data Engineer currently, working at the Teacher Retirement System of Texas. I hold a Master’s degree in Business Analytics and Artificial Intelligence from UT Dallas and 
             {/* student currently pursuing my Master’s degree in Business
             Analytics at UT Dallas.  */}
-            My experience includes optimizing data
+            my experience includes optimizing data
             pipelines for faster processing and developing machine learning
             algorithms to tackle real-world problems.
           </p>
